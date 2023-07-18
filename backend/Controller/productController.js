@@ -3,6 +3,7 @@ const productModel = require("../Modal/productMOdel")
 
 exports.addProduct = async (req, res) => {
     try {
+        console.log('this is copy')
         const { pname, price, category, id } = req.body
         console.log("id=", id)
         const product = await productModel.create({
