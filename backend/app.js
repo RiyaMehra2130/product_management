@@ -1,0 +1,12 @@
+const express=require('express')
+const app=express()
+const userRoute=require('./Routes/Routes')
+const productRoute=require('./Routes/productRoute')
+const cors=require('cors')
+
+app.use(cors())
+app.use(express.urlencoded({extended:false}))
+app.use(express.json())
+app.use('/',userRoute)
+app.use('/',productRoute)
+app.listen(2020,console.log("Running at port 2020"))

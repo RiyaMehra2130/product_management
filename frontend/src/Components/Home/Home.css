@@ -1,0 +1,57 @@
+
+#logbtn{
+
+    float:right;
+    background-color: rgb(143, 30, 30);
+    color:wheat;
+    height: 50px;
+    width:100px;
+    border-radius: 10px;
+    
+
+}
+#navbtn{
+
+    float:right;
+    background-color: rgb(143, 30, 30);
+    color:wheat;
+    height: 50px;
+    width:200px;
+    border-radius: 10px;
+    
+
+}
+#un{
+  margin-left: 50px;
+ 
+   
+}
+#up{
+    display: flex;
+    margin-top: 10px;
+  
+}
+
+#seachBox{
+    margin-left:10px;
+    margin-right:10px
+}
+/* .OuterDiv{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1),rgba(255,0,0,0));
+
+    border-radius: 20px;
+    box-shadow:2px;
+} */
+
+#search{
+    width:500px;
+    height:50px;
+    border-radius: 20px;
+}
+#card{
+   float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+
